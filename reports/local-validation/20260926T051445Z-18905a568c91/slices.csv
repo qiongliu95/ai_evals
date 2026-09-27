@@ -1,0 +1,5 @@
+﻿run_id,model,mode,instruction_type,total,pass,fail,pass_rate
+20260926T051445Z-18905a568c91,offline-fixture-a,strict,punctuation:no_comma,4,2,2,0.5
+20260926T051445Z-18905a568c91,offline-fixture-a,loose,punctuation:no_comma,4,2,2,0.5
+20260926T051448Z-120aa6cc260b,offline-fixture-b,strict,punctuation:no_comma,4,2,2,0.5
+20260926T051448Z-120aa6cc260b,offline-fixture-b,loose,punctuation:no_comma,4,2,2,0.5

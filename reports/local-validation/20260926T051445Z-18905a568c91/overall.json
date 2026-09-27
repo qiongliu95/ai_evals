@@ -1,0 +1,96 @@
+[
+  {
+    "run_id": "20260926T051445Z-18905a568c91",
+    "model": "offline-fixture-a",
+    "expected_samples": 4,
+    "attempted_samples": 4,
+    "scored_samples": 4,
+    "missing_samples": 0,
+    "runtime_errors": 0,
+    "grader_errors": 0,
+    "denominator_policy": "Only successfully generated and scored samples; coverage reported separately.",
+    "overall": {
+      "prompt_strict": {
+        "total": 4,
+        "pass": 2,
+        "fail": 2,
+        "pass_rate": 0.5
+      },
+      "instruction_strict": {
+        "total": 4,
+        "pass": 2,
+        "fail": 2,
+        "pass_rate": 0.5
+      },
+      "prompt_loose": {
+        "total": 4,
+        "pass": 2,
+        "fail": 2,
+        "pass_rate": 0.5
+      },
+      "instruction_loose": {
+        "total": 4,
+        "pass": 2,
+        "fail": 2,
+        "pass_rate": 0.5
+      }
+    },
+    "raw_sha256": "edbfea42895661694dbcb62f286a9dd2caf910c817ea59cf3f25e785746a8ae5",
+    "efficiency": {
+      "attempts": 4,
+      "total_latency_ms": 0,
+      "input_tokens_known": 0,
+      "output_tokens_known": 0,
+      "attempts_missing_usage": 4,
+      "truncated_samples": 0,
+      "cost": null
+    }
+  },
+  {
+    "run_id": "20260926T051448Z-120aa6cc260b",
+    "model": "offline-fixture-b",
+    "expected_samples": 4,
+    "attempted_samples": 4,
+    "scored_samples": 4,
+    "missing_samples": 0,
+    "runtime_errors": 0,
+    "grader_errors": 0,
+    "denominator_policy": "Only successfully generated and scored samples; coverage reported separately.",
+    "overall": {
+      "prompt_strict": {
+        "total": 4,
+        "pass": 2,
+        "fail": 2,
+        "pass_rate": 0.5
+      },
+      "instruction_strict": {
+        "total": 4,
+        "pass": 2,
+        "fail": 2,
+        "pass_rate": 0.5
+      },
+      "prompt_loose": {
+        "total": 4,
+        "pass": 2,
+        "fail": 2,
+        "pass_rate": 0.5
+      },
+      "instruction_loose": {
+        "total": 4,
+        "pass": 2,
+        "fail": 2,
+        "pass_rate": 0.5
+      }
+    },
+    "raw_sha256": "14e26187f17d091845e32b07eb79f632fb46f6af9f1f3975636535327f9f47f6",
+    "efficiency": {
+      "attempts": 4,
+      "total_latency_ms": 0,
+      "input_tokens_known": 0,
+      "output_tokens_known": 0,
+      "attempts_missing_usage": 4,
+      "truncated_samples": 0,
+      "cost": null
+    }
+  }
+]

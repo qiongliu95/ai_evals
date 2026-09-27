@@ -1,0 +1,9 @@
+﻿run_id,model,metric,total,pass,fail,pass_rate
+20260926T051445Z-18905a568c91,offline-fixture-a,prompt_strict,4,2,2,0.5
+20260926T051445Z-18905a568c91,offline-fixture-a,instruction_strict,4,2,2,0.5
+20260926T051445Z-18905a568c91,offline-fixture-a,prompt_loose,4,2,2,0.5
+20260926T051445Z-18905a568c91,offline-fixture-a,instruction_loose,4,2,2,0.5
+20260926T051448Z-120aa6cc260b,offline-fixture-b,prompt_strict,4,2,2,0.5
+20260926T051448Z-120aa6cc260b,offline-fixture-b,instruction_strict,4,2,2,0.5
+20260926T051448Z-120aa6cc260b,offline-fixture-b,prompt_loose,4,2,2,0.5
+20260926T051448Z-120aa6cc260b,offline-fixture-b,instruction_loose,4,2,2,0.5

@@ -1,0 +1,7 @@
+{
+  "eval_name": "ifeval",
+  "provider": "deepseek",
+  "model_id": "deepseek-flash",
+  "parameters": {"temperature": 0, "max_tokens": 4096, "thinking": {"type": "disabled"}},
+  "timeout_seconds": 120
+}

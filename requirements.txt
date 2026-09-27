@@ -1,0 +1,13 @@
+# Runtime dependencies
+httpx==0.28.1
+python-dotenv==1.1.1
+absl-py==2.3.1
+langdetect==1.0.9
+nltk==3.9.1
+immutabledict==4.2.1
+
+# pytest is only used for tests and is not required at runtime.
+# pytest==8.4.2
+
+# After the first installation, download the NLTK punkt_tab data:
+# python -m ai_evals.cli prepare --download-nltk

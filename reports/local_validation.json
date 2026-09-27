@@ -1,0 +1,24 @@
+{
+  "validated_at": "2026-09-26T05:14:48.979712+00:00",
+  "purpose": "Local software verification only; not a baseline",
+  "model_api_calls": 0,
+  "model_api_cost": 0,
+  "dataset_samples": 541,
+  "runs": [
+    "C:\\Users\\12643\\Desktop\\测评\\AI评估工程\\ai_evals\\runs\\local-validation\\20260926T051445Z-18905a568c91",
+    "C:\\Users\\12643\\Desktop\\测评\\AI评估工程\\ai_evals\\runs\\local-validation\\20260926T051448Z-120aa6cc260b"
+  ],
+  "analysis": "C:\\Users\\12643\\Desktop\\测评\\AI评估工程\\ai_evals\\reports\\local-validation\\20260926T051445Z-18905a568c91",
+  "checks": [
+    "dataset",
+    "runner",
+    "success_skip",
+    "raw_append",
+    "independent_rescore",
+    "overall",
+    "slice",
+    "all_four_comparison_groups",
+    "disagreement_export",
+    "annotation_templates"
+  ]
+}

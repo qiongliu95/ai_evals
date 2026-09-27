@@ -1,0 +1,51 @@
+{
+  "failure_analysis": {
+    "fields": [
+      "run_id",
+      "sample_id",
+      "model",
+      "scorer_result",
+      "is_real_failure",
+      "failure_source",
+      "failure_type",
+      "notes",
+      "needs_repeat_trial",
+      "needs_targeted_case"
+    ],
+    "failure_source": [
+      "model",
+      "instruction_following",
+      "format",
+      "scorer",
+      "task_or_sample",
+      "prompt_ambiguity",
+      "runtime",
+      "randomness",
+      "unknown"
+    ],
+    "boolean_values": [
+      "",
+      "true",
+      "false"
+    ],
+    "failure_type": "Free text; add categories only from observed cases.",
+    "row_identity": [
+      "run_id",
+      "sample_id",
+      "model"
+    ]
+  },
+  "targeted_case": {
+    "fields": [
+      "case_id",
+      "source_failure_case",
+      "hypothesis",
+      "target_slice",
+      "prompt",
+      "expected_rule",
+      "why_added"
+    ],
+    "source_failure_case": "run_id/sample_id/model",
+    "creation_policy": "Only after human confirmation; no cases generated in V1."
+  }
+}

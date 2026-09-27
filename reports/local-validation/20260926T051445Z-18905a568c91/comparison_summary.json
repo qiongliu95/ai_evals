@@ -1,0 +1,22 @@
+{
+  "model_a": "offline-fixture-a",
+  "model_b": "offline-fixture-b",
+  "comparable_samples": 4,
+  "unpaired_or_unscored_ids": [],
+  "parameter_match": true,
+  "note": "parameter_match compares vendor parameter dictionaries; inspect saved configs for comparability.",
+  "groups": {
+    "strict": {
+      "A_pass_B_pass": 1,
+      "A_pass_B_fail": 1,
+      "A_fail_B_pass": 1,
+      "A_fail_B_fail": 1
+    },
+    "loose": {
+      "A_pass_B_pass": 1,
+      "A_pass_B_fail": 1,
+      "A_fail_B_pass": 1,
+      "A_fail_B_fail": 1
+    }
+  }
+}
